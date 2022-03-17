@@ -92,6 +92,8 @@ console.log(quicksort([10, 5, 2, 3]));
 - Master, Minsk State Linguistic University, Belarus/Minsk
   - Linguistic support of intercultural communication (english, chinese languages)
 - Courses
+  - JS/FE PRE-SCHOOL 2022 (JAVASCRIPT) - THE ROLLING SCOPES
+SCHOOL
   - [Udemy video lectures](https://www.udemy.com/)
   - [CS50 lectures](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
   - [FreeCodeCamp](https://www.freecodecamp.org/)
