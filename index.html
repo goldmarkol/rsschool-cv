@@ -175,6 +175,36 @@
           </ul>
         </div>
       </section>
+
+      <section class="section section-code" id="code">
+        <div class="container">
+          <h2 class="section-title">Code example:</h2>
+          <h3 class="code-subtitle">Quick array sorting implementation</h3>
+          <div class="code-block">
+            <pre>
+              <code class="language-javascript">
+                function quicksort(array) {
+                  if (array.length &lt; 2) return array;
+                
+                  let pivot = array[0];
+                
+                  let less = array.slice(1).filter(function (el) {
+                    return el &lt;= pivot;
+                  });
+                
+                  let greater = array.slice(1).filter(function (el) {
+                    return el > pivot;
+                  });
+                
+                  return quicksort(less).concat([pivot], quicksort(greater));
+                }
+  
+                console.log(quicksort([10, 5, 2, 3]));
+              </code>
+            </pre>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
